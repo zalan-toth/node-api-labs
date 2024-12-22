@@ -3,6 +3,7 @@ import express from 'express';
 import tasksRouter from './api/tasks';
 
 dotenv.config();
+import './db/index.js'; // Import the DB connection
 
 const app = express();
 
