@@ -127,3 +127,4 @@ dist
 .pnp.*
 
 ./node-lab1/node_modules/*
+./node-lab1/.idea/*
