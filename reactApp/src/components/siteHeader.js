@@ -13,7 +13,7 @@ const Header = (props) => {
   ) : (
     <p>
       You are not logged in{" "}
-      <button onClick={() => navigate('/login')}>Login</button>
+      <button onClick={() => navigate('/login')}>Login OR Register</button>
     </p>
   );
 };
